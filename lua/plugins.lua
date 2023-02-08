@@ -1,7 +1,6 @@
 local status, packer = pcall(require, "packer")
 if (not status) then
-  os.execute(
-      "git clone --depth 1 https://github.com/wbthomason/packer.nvim  ~/.local/share/nvim/site/pack/packer/start/packer.nvim")
+  os.execute("git clone --depth 1 https://github.com/wbthomason/packer.nvim  ~/.local/share/nvim/site/pack/packer/start/packer.nvim")
   return
 end
 
